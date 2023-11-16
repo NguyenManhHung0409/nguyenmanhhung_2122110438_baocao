@@ -1,0 +1,20 @@
+{
+    "name": "nguyenmanhhung/shop-cong-nghe",
+    "description": "Học lập trình với thầy Lợi",
+    "authors": [
+        {
+            "name": "Nguyen Manh Hung",
+            "email": "nguyenmanhhung176472@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {}
+}

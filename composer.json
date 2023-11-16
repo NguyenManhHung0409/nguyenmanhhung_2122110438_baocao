@@ -1,0 +1,23 @@
+{
+    "name": "nguyenmanhhung/shop-thoi-trang",
+    "description": "Học lập trình php",
+    "authors": [
+        {
+            "name": "NGUYEN MANH HUNG",
+            "email": "nguyenmanhhung176472@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
